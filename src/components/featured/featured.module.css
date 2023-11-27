@@ -60,7 +60,7 @@
     }
   
     .imgContainer {
-      display: none;
+      display: flex;
     }
   }
   
@@ -68,10 +68,18 @@
     .title {
       font-size: 48px;
     }
+      
+    .imgContainer {
+      display: flex;
+    }
   }
   
   @media screen and (max-width: 640px) {
     .title {
       font-size: 36px;
+    }
+
+    .imgContainer {
+      display: flex;
     }
   }  
