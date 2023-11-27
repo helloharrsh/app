@@ -58,28 +58,16 @@
     .title {
       font-size: 64px;
     }
-  
-    .imgContainer {
-      display: flex;
-    }
   }
   
   @media screen and (max-width: 768px) {
     .title {
       font-size: 48px;
     }
-      
-    .imgContainer {
-      display: flex;
-    }
   }
   
   @media screen and (max-width: 640px) {
     .title {
       font-size: 36px;
-    }
-
-    .imgContainer {
-      display: flex;
     }
   }  
